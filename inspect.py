@@ -107,7 +107,7 @@ def getVolatile():
 		stdout = out, stderr = out)
 	logOk("Saving to users.txt")	
 	
-	logHdr("Logon on sessions")
+	logHdr("Logon sessions")
 	with open("OUT\\sessions.txt", 'w') as out:
 		subprocess.Popen(['tools\LogonSessions.exe', '/accepteula', '/p'], 
 		shell = True, stdout = out, stderr = out)
@@ -205,7 +205,7 @@ def getNonVolatile():
 			shell = True, stdout = out, stderr = out)
 	logOk("Saving to file-permissions.txt")	
 	
-	logHdr("Installed patched")
+	logHdr("Installed patches")
 	with open("OUT\\systeminfo.txt", 'w') as out:
 		subprocess.Popen(['systeminfo'], 
 		shell = True, stdout = out, stderr = out)
