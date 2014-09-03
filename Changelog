@@ -1,0 +1,1 @@
+Chnages~~~~~~~~~~~~~~~~~~~[+] Use subprocess.call() to wait for process termination[+] Better format high level report headers[+] Add compression of artefacts
