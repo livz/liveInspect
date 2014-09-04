@@ -71,7 +71,7 @@ Non-volatile data collection
 Notes
 -------
 
-- A ZIP archive wit hthe artefacts is created at the end.
+- A ZIP archive with the artefacts is created at the end.
 - A lot of the tools need administrator rights in order to run properly.
 - Memory dumping should be done separately, if needed, before starting the artefacts collection process.
 - Some of the licenses for the 3rd party tools do not allow distribution. However, personal and commercial use is permitted.
