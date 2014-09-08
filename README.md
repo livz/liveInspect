@@ -62,8 +62,17 @@ Non-volatile data collection
 |SOFTWARE hive| 	reg save HKLM\SOFTWARE software.dat| 	Built-in||
 
 [Windows live forensics - part 1](http://cyberinc.co.uk/windows-live-forensics/)
+
 [Windows live forensics - part 2](http://cyberinc.co.uk/windows-live-forensics-part-2/)
+
 [Windows live forensics - part 3](http://cyberinc.co.uk/windows-live-forensics-part-3/)
 
 
+Notes
+-------
+
+- A ZIP archive with the artefacts is created at the end.
+- A lot of the tools need administrator rights in order to run properly.
+- Memory dumping should be done separately, if needed, before starting the artefacts collection process.
+- Some of the licenses for the 3rd party tools do not allow distribution. However, personal and commercial use is permitted.
 
