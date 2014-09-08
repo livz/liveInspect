@@ -56,6 +56,12 @@ def getStatus():
 def getVolatile():
 	logHdr0("Get volatile data")
 	
+	logHdr("Search for local encrypted drives")
+	with open("OUT\\encrypted-drives.txt", 'wb') as out:
+		subprocess.Popen(['tools\EDD.exe', '/accepteula', '/batch'],
+		shell = True, stdout = out)
+	logOk("Saving to encrypted-drives.txt")
+	
 	logHdr("NetBios Sessions")
 	with open("OUT\\netbios-sessions.txt", 'wb') as out:
 		subprocess.Popen(['nbtstat', '/S'], shell = True, stdout = out)

@@ -1,1 +1,6 @@
-Chnages~~~~~~~~~~~~~~~~~~~[+] Use subprocess.call() to wait for process termination[+] Better format high level report headers[+] Add compression of artefacts
+Chnages
+~~~~~~~~~~~~~~~~~~~
+[+] Add detection of encrypted drives using EDD
+[+] Use subprocess.call() to wait for process termination
+[+] Better format high level report headers
+[+] Add compression of artefacts
