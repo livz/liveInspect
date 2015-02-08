@@ -18,7 +18,7 @@ Volatile data collection
 -------
 |Data 	   |Command Line| Developer | Comments |
 |:---------|:-----------|:----------|:---------|
-|Encrypted drives| EDD /accepteula /batch| Magnet Forensics| Encrypted Disk Detector|
+|Encrypted drives| edd /accepteula /batch| Magnet Forensics| Encrypted Disk Detector|
 |NetBIOS sessions| 	nbtstat /S| 	Built-in| 	Sessions established over the network|
 |NetBIOS cache| 	nbtstat /c 	|Built-in| 	Names Cache|
 |Open shared files| 	net file| 	Built-in||	
